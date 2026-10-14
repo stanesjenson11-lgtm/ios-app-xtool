@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ios-app-xtool-marketplace",
+  "description": "Official marketplace for xtool — Cross-platform iOS app builder and deployment tool for Claude Code",
+  "owner": {
+    "name": "xtool-org",
+    "url": "https://github.com/stanesjenson11-lgtm/ios-app-xtool"
+  },
+  "plugins": [
+    {
+      "name": "ios-app-xtool",
+      "description": "Cross-platform Xcode replacement. Build, run, sign, and deploy iOS apps with SwiftPM directly from Claude Code on Linux, Windows, and macOS.",
+      "version": "1.0.0",
+      "author": {
+        "name": "xtool-org"
+      },
+      "category": "development",
+      "source": "./claude-plugin",
+      "homepage": "https://github.com/stanesjenson11-lgtm/ios-app-xtool"
+    }
+  ]
+}

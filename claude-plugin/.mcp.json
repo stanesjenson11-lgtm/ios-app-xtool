@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ios-app-xtool": {
+      "command": "python",
+      "args": ["mcp-server/server.py"],
+      "cwd": "${pluginDir}",
+      "env": {
+        "PATH": "${env:PATH}",
+        "APPLE_ID": "${env:APPLE_ID}",
+        "APPLE_TEAM_ID": "${env:APPLE_TEAM_ID}",
+        "APP_STORE_CONNECT_API_KEY": "${env:APP_STORE_CONNECT_API_KEY}"
+      }
+    }
+  }
+}

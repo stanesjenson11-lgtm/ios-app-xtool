@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ios-app-xtool",
+  "displayName": "xtool — Cross-platform iOS App Tool",
+  "version": "1.0.0",
+  "description": "Cross-platform Xcode replacement. Build, test, sign, install, and launch iOS apps using SwiftPM on Linux, Windows, and macOS without Xcode.",
+  "author": {
+    "name": "xtool-org"
+  },
+  "repository": "https://github.com/stanesjenson11-lgtm/ios-app-xtool",
+  "homepage": "https://xtool.sh",
+  "license": "MIT",
+  "keywords": [
+    "ios",
+    "xcode",
+    "swift",
+    "swiftpm",
+    "cross-platform",
+    "build-tool",
+    "ios-deployment",
+    "mcp"
+  ]
+}
